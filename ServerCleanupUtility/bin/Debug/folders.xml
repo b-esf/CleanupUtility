@@ -1,0 +1,14 @@
+<folders>
+  <folder name="location1">
+    <archive>True</archive>
+    <path>C:\Users\Bobby Esfandiari\Desktop\soapasdf</path>
+    <bimonthly>True</bimonthly>
+    <clean>True</clean>
+  </folder>
+  <folder name="location2">
+    <archive>False</archive>
+    <path>C:\Users\Bobby Esfandiari\Desktop\soapBM</path>
+    <bimonthly>False</bimonthly>
+    <clean>False</clean>
+  </folder>
+</folders>
