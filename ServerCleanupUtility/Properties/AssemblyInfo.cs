@@ -35,22 +35,22 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyVersion("1.0.0.6")]
 [assembly: AssemblyFileVersion("1.0.0.6")]
 
-// 1.0.0.6 - Bobby - Cleaned up app.config, removed unnecessary tags that are no longer used.
+// 1.0.0.6 - Krypto - Cleaned up app.config, removed unnecessary tags that are no longer used.
 //                 - Added message for invalid directories in the logbox.
-// 1.0.0.5 - Bobby - Changed setting parsing to use XML instead of app.config.
+// 1.0.0.5 - Krypto - Changed setting parsing to use XML instead of app.config.
 //                   - Added checkbox for activating/deactivating each entry's archiving.
-// 1.0.0.4 - Bobby - Fixed bug with directory index number that didn't take double digits into consideration.
+// 1.0.0.4 - Krypto - Fixed bug with directory index number that didn't take double digits into consideration.
 //                 - Added .csv files to types that are zipped.
 //                 - Changed formatting in linkbox to draw the checkboxes before the direcotry label.
 //                 - Added Tooltips for checkboxes.
-// 1.0.0.3 - Bobby - Changed the way info is parsed from config file.
+// 1.0.0.3 - Krypto - Changed the way info is parsed from config file.
 //                  - Now puts data into custom objects instead of lists/arrays.
 //                  - Objects are used for populating/saving folder information on the form.
 //                  - Added error handling for missing data for each entry, in config.
-// 1.0.0.2 - Bobby - Added timestamps to the log box messages.
+// 1.0.0.2 - Krypto - Added timestamps to the log box messages.
 //                 - Handled case where folder is empty and was throwing null reference error.
 //                 - Modified Zip/Delete event handlers to scroll to end of logBox.
-// 1.0.0.1 - Bobby - Changed sorting to only include .txt, .xml, and .log files.
+// 1.0.0.1 - Krypto - Changed sorting to only include .txt, .xml, and .log files.
 //                 - Added the ability to do bimonthly archives through app.config.
 //                 - Modified user messages to be more descriptive.
-// 1.0.0.0 - Bobby - First version of the utility.
+// 1.0.0.0 - Krypto - First version of the utility.
