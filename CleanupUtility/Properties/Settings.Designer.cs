@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ServerCleanupUtility.Properties {
+namespace CleanupUtility.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

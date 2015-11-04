@@ -1,6 +1,6 @@
-﻿namespace ServerCleanupUtility
+﻿namespace CleanupUtility
 {
-    partial class ServerCleanupForm
+    partial class CleanupForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ServerCleanupForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CleanupForm));
             this.Zip = new System.Windows.Forms.Button();
             this.Delete = new System.Windows.Forms.Button();
             this.logBox = new System.Windows.Forms.TextBox();
@@ -112,7 +112,7 @@
             this.linkBox.TabIndex = 8;
             this.linkBox.MouseHover += new System.EventHandler(this.LinkBox_MouseHover);
             // 
-            // ServerCleanupForm
+            // CleanupForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -126,7 +126,7 @@
             this.Controls.Add(this.Zip);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "ServerCleanupForm";
+            this.Name = "CleanupForm";
             this.Text = "Server Cleanup";
             this.ResumeLayout(false);
             this.PerformLayout();

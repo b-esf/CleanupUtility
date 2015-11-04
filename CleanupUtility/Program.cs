@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Windows.Forms;
 
-namespace ServerCleanupUtility
+namespace CleanupUtility
 {
     static class Program
     {
@@ -14,7 +14,7 @@ namespace ServerCleanupUtility
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ServerCleanupForm());
+            Application.Run(new CleanupForm());
         }
     }
 }

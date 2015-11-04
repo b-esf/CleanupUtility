@@ -16,12 +16,12 @@ using System.Xml;
 using Microsoft.VisualBasic.FileIO;
 
 
-namespace ServerCleanupUtility
+namespace CleanupUtility
 {
-    public partial class ServerCleanupForm : Form
+    public partial class CleanupForm : Form
     {   
         
-        public ServerCleanupForm()
+        public CleanupForm()
         {
             InitializeComponent();
             

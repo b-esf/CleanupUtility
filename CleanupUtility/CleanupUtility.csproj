@@ -49,16 +49,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ServerCleanupForm.cs">
+    <Compile Include="CleanupForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ServerCleanupForm.Designer.cs">
-      <DependentUpon>ServerCleanupForm.cs</DependentUpon>
+    <Compile Include="CleanupForm.Designer.cs">
+      <DependentUpon>CleanupForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="ServerCleanupForm.resx">
-      <DependentUpon>ServerCleanupForm.cs</DependentUpon>
+    <EmbeddedResource Include="CleanupForm.resx">
+      <DependentUpon>CleanupForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
